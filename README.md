@@ -10,7 +10,7 @@ conda activate EEND
 ```
 Clone the repository
 ```bash
-git clone https://github.com/Sangramsingkayte/VBx.git
+git clone https://github.com/Sangramsingkayte/End-to-End-Neural-Diarization.git
 ```
 ## Install tools
 ### Requirements
