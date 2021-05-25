@@ -1,14 +1,5 @@
 ### EEND (End-to-End Neural Diarization)
-
 EEND (End-to-End Neural Diarization) is a neural-network-based speaker diarization method.
-- BLSTM EEND (INTERSPEECH 2019)
-  - https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2899.html
-- Self-attentive EEND (ASRU 2019)
-  - https://ieeexplore.ieee.org/abstract/document/9003959/
-
-The EEND extension for various number of speakers is also provided in this repository.
-- Self-attentive EEND with encoder-decoder based attractors
-  - https://arxiv.org/abs/2005.09921
 
 ## Install tools
 ### Requirements
@@ -69,12 +60,12 @@ local/run_blstm.sh
 ```
 
 ## References
-[1] Yusuke Fujita, Naoyuki Kanda, Shota Horiguchi, Kenji Nagamatsu, Shinji Watanabe, "
-End-to-End Neural Speaker Diarization with Permutation-free Objectives," Proc. Interspeech, pp. 4300-4304, 2019
+- BLSTM EEND (INTERSPEECH 2019)
+  - https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2899.html
+- Self-attentive EEND (ASRU 2019)
+  - https://ieeexplore.ieee.org/abstract/document/9003959/
 
-[2] Yusuke Fujita, Naoyuki Kanda, Shota Horiguchi, Yawen Xue, Kenji Nagamatsu, Shinji Watanabe, "
-End-to-End Neural Speaker Diarization with Self-attention," Proc. ASRU, pp. 296-303, 2019
-
-[3] Shota Horiguchi, Yusuke Fujita, Shinji Watanabe, Yawen Xue, Kenji Nagamatsu, "
-End-to-End Speaker Diarization for an Unknown Number of Speakers with Encoder-Decoder Based Attractors," Proc. INTERSPEECH, 2020
-```
+The EEND extension for various number of speakers is also provided in this repository.
+- Self-attentive EEND with encoder-decoder based attractors
+  - https://arxiv.org/abs/2005.09921
+ 
