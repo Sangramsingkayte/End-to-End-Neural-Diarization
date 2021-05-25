@@ -1,4 +1,4 @@
-# EEND (End-to-End Neural Diarization)
+### EEND (End-to-End Neural Diarization)
 
 EEND (End-to-End Neural Diarization) is a neural-network-based speaker diarization method.
 - BLSTM EEND (INTERSPEECH 2019)
