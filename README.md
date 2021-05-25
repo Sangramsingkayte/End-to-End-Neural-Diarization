@@ -1,11 +1,22 @@
 ### EEND (End-to-End Neural Diarization)
 EEND (End-to-End Neural Diarization) is a neural-network-based speaker diarization method.
 
+
+## Getting started
+We recommend to create [anaconda](https://www.anaconda.com/) environment
+```bash
+conda create -n EEND python=3.6
+conda activate EEND
+```
+Clone the repository
+```bash
+git clone https://github.com/Sangramsingkayte/VBx.git
+```
 ## Install tools
 ### Requirements
  - NVIDIA CUDA GPU
  - CUDA Toolkit (8.0 <= version <= 10.1)
-
+ - 
 ### Install kaldi and python environment
 ```bash
 cd tools
